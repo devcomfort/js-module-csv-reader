@@ -1,6 +1,11 @@
 {
   "name": "csv-reader",
   "packageManager": "yarn@3.2.3",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "exports": {
     ".": {
       "import": "./src/index.mjs",
