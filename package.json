@@ -9,8 +9,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./src/index.js",
-      "require": "./src/index.cjs"
+      "import": "./index.js",
+      "require": "./index.cjs"
     }
   }
 }
