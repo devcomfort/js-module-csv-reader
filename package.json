@@ -9,7 +9,7 @@
   "main": "build/index.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "alanode src -o build --noSourceMaps"
+    "build": "alamode src -o build --noSourceMaps"
   },
   "dependencies": {
     "alamode": "^3.7.1"
