@@ -1,0 +1,14 @@
+lockfileVersion: 5.4
+
+specifiers:
+  alamode: ^3.7.1
+
+dependencies:
+  alamode: 3.7.1
+
+packages:
+
+  /alamode/3.7.1:
+    resolution: {integrity: sha512-Vy2w3qhjyDqwiy1sX0NzVgw7tc3vy/OAoBfV88EaS7PzI4Qo/uwpnhWmWBw38su3LdkBUJV2imRmJLScizf48A==}
+    hasBin: true
+    dev: false

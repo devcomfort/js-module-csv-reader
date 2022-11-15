@@ -1,16 +1,17 @@
 {
   "name": "@devcomfort/csv-reader",
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "pnpm@7.14.2",
   "version": "0.0.3",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "type": "module",
-  "exports": {
-    ".": {
-      "import": "./index.js",
-      "require": "./index.cjs"
-    }
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "alanode src -o build --noSourceMaps"
+  },
+  "dependencies": {
+    "alamode": "^3.7.1"
   }
 }
